@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
+    "title": "Папероні1",
+    "types": [0, 1],
+    "sizes": [26, 35],
+    "price": 110,
+    "category": 0,
+    "rating": 1
+  },
+  {
+    "id": 1,
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
+    "title": "Папероні2",
+    "types": [0, 1],
+    "sizes": [26, 30, 40],
+    "price": 105,
+    "category": 0,
+    "rating": 2
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
+    "title": "Папероні3",
+    "types": [1],
+    "sizes": [30, 40],
+    "price": 120,
+    "category": 0,
+    "rating": 3
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
+    "title": "Папероні4",
+    "types": [0],
+    "sizes": [26, 30, 40],
+    "price": 115,
+    "category": 0,
+    "rating": 4
+  },
+  {
+    "id": 4,
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
+    "title": "Папероні5",
+    "types": [0],
+    "sizes": [26, 35],
+    "price": 95,
+    "category": 0,
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
+    "title": "Папероні6",
+    "types": [0, 1],
+    "sizes": [26],
+    "price": 120,
+    "category": 0,
+    "rating": 6
+  },
+  {
+    "id": 6,
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
+    "title": "Папероні7",
+    "types": [0, 1],
+    "sizes": [26, 40],
+    "price": 130,
+    "category": 0,
+    "rating": 7
+  },
+  {
+    "id": 7,
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
+    "title": "Папероні8",
+    "types": [0, 1],
+    "sizes": [26, 35, 40],
+    "price": 140,
+    "category": 0,
+    "rating": 9
+  }
+]
