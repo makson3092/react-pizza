@@ -167,6 +167,11 @@ body {
     }
   }
 
+  .content__items {
+    display: block;
+    // grid-template-columns: none;
+  }
+
   &__item {
     display: flex;
     width: 100%;
