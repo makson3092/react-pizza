@@ -1,0 +1,40 @@
+.root {
+  position: relative;
+  left: -120px;
+  .input {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 8px 15px;
+    // width: 280px;
+    width: 130%;
+    padding-left: 42px;
+    border-radius: 10px;
+    font-size: 16px;
+    // transition: all 0.15s ease-in-out;
+
+    &:focus {
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      //   width: 380px;
+      //   width: 160%;
+    }
+  }
+}
+.icon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.4;
+  position: absolute;
+  left: 14px;
+  top: 10px;
+}
+.clearSearch {
+  width: 40px;
+  height: 44px;
+  opacity: 0.4;
+  position: absolute;
+  left: 112%;
+  top: -2px;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}

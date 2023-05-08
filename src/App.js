@@ -7,27 +7,22 @@ import { Routes, Route } from "react-router-dom";
 
 import "./scss/app.scss";
 
-// const Loadind = () => {
-//   return (
-//     <>
-//       <p>загрузка</p>
-//       <Load />
-//     </>
-//   );
-// };
+export const AppContext = React.createContext();
+
 function App() {
+  const [searchValue, setsearchValue] = React.useState("");
   return (
     <div className="wrapper">
-      <Header />
-      {/* {isLoading && <Loadind />} */}
-      <div className="content">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-        {/* {false ? <Home /> : <NotFound />} */}
-      </div>
+      <AppContext.Provider value={{ searchValue, setsearchValue }}>
+        <Header />
+        <div className="content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </div>
+      </AppContext.Provider>
     </div>
   );
 }
