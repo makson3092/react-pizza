@@ -18,6 +18,7 @@ function Sort() {
   const [open, setOpen] = React.useState(false);
 
   const onClickSelectList = (obj) => {
+    console.log(`Change_List_Update "${obj.name}"`);
     dispatch(setSort(obj));
     setOpen(false);
   };
