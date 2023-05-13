@@ -5,6 +5,20 @@
   span {
     font-size: 58px;
   }
+  @media (max-width: 440px) {
+    padding: 80px 50px;
+    h1 {
+      font-size: 26px;
+      font-weight: 800;
+      span {
+        text-align: center;
+        font-size: 58px;
+      }
+    }
+    p {
+      font-size: 20px;
+    }
+  }
 }
 
 .description {

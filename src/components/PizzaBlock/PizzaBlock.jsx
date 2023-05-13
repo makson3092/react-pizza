@@ -22,7 +22,7 @@ function PizzaBlock({ id, title, price, imageUrl, sizes, types }) {
       price,
       imageUrl,
       type: typeNames[activeType],
-      size: activeSize,
+      size: sizes[activeSize],
     };
     dispatch(addProduct(item));
   };
@@ -33,7 +33,6 @@ function PizzaBlock({ id, title, price, imageUrl, sizes, types }) {
       <h4 className="pizza-block__title">{title}</h4>
       <div className="pizza-block__selector">
         <ul>
-          {/* <li className="active">тонкое</li> */}
           {types.map((type) => (
             <li
               key={type}
@@ -54,9 +53,6 @@ function PizzaBlock({ id, title, price, imageUrl, sizes, types }) {
               {size} см.
             </li>
           ))}
-          {/* <li className="active">26 см.</li>
-          <li>30 см.</li>
-          <li>40 см.</li> */}
         </ul>
       </div>
       <div className="pizza-block__bottom">
@@ -72,9 +68,7 @@ function PizzaBlock({ id, title, price, imageUrl, sizes, types }) {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <path
-            // fill="white"
-            />
+            <path />
           </svg>
           <span>Додати</span>
           {addedCount > 0 && <i>{addedCount}</i>}
